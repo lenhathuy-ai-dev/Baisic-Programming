@@ -1,0 +1,14 @@
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\bin\Debug\net10.0\1.BasicExercises.exe
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\bin\Debug\net10.0\1.BasicExercises.deps.json
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\bin\Debug\net10.0\1.BasicExercises.runtimeconfig.json
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\bin\Debug\net10.0\1.BasicExercises.dll
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\bin\Debug\net10.0\1.BasicExercises.pdb
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.GeneratedMSBuildEditorConfig.editorconfig
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.AssemblyInfoInputs.cache
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.AssemblyInfo.cs
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.csproj.CoreCompileInputs.cache
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.dll
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\refint\1.BasicExercises.dll
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.pdb
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\1.BasicExercises.genruntimeconfig.cache
+d:\_2026\1.CNTT\14.BasicProgramming\_2sharp\1.BasicExercises\obj\Debug\net10.0\ref\1.BasicExercises.dll
