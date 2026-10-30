@@ -1,0 +1,165 @@
+# ============================================================
+# BASIC PROGRAMMING - SOURCE CODE ONLY
+# C#, Java, JavaScript, TypeScript, Kotlin, Swift,
+# React, Next.js, React Native, PHP, Python
+# Keep source files, project configs, and dependency lockfiles.
+# ============================================================
+
+# 1. Editors, IDEs, operating systems
+.vscode/
+.vs/
+.idea/
+.fleet/
+.history/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 2. Logs, temporary and local cache files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+.cache-loader/
+
+# 3. Private config and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pfx
+*.p12
+*.pem
+*.key
+
+# 4. C# / .NET
+**/bin/
+**/obj/
+**/TestResults/
+**/packages/
+*.nupkg
+*.snupkg
+*.coverage
+*.coveragexml
+
+# 5. Python
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+**/env/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.tox/
+**/.nox/
+**/.hypothesis/
+**/.ipynb_checkpoints/
+*.egg-info/
+*.egg
+.python-version
+
+# 6. Java / Kotlin / Gradle / Maven
+*.class
+*.jar
+*.war
+*.ear
+**/.gradle/
+**/.kotlin/
+**/target/
+**/out/
+# Gradle wrapper JAR is needed to build from source.
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# 7. JavaScript / TypeScript / React / Next.js / React Native
+**/node_modules/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.turbo/
+**/.parcel-cache/
+**/.svelte-kit/
+**/.angular/
+**/.expo/
+**/.expo-shared/
+**/.yarn/cache/
+**/.yarn/unplugged/
+**/.yarn/build-state.yml
+**/.pnpm-store/
+**/coverage/
+**/.nyc_output/
+**/dist/
+**/build/
+**/storybook-static/
+*.tsbuildinfo
+
+# 8. React Native / Android / iOS build artifacts
+**/android/.cxx/
+**/android/.gradle/
+**/android/local.properties
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/build/
+**/DerivedData/
+*.xcuserstate
+**/xcuserdata/
+
+# 9. Swift
+**/.build/
+**/.swiftpm/
+**/.package.resolved.tmp
+*.dSYM/
+*.dSYM.zip
+
+# 10. PHP / Composer
+**/vendor/
+.phpunit.cache/
+.phpunit.result.cache
+.phpunit-watcher.yml
+**/bootstrap/cache/*.php
+**/storage/framework/cache/data/
+**/storage/framework/sessions/
+**/storage/framework/views/
+**/storage/logs/
+
+# 11. Compiled executables and native build products
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.app/
+*.ipa
+*.apk
+*.aab
+*.pyc
+
+# 12. Local databases and generated reports
+*.sqlite
+*.sqlite3
+*.db
+*.prof
+*.profdata
+
+# IMPORTANT: Source and project files remain tracked:
+# .cs, .csproj, .sln/.slnx, .java, .kt, .swift, .js, .jsx,
+# .ts, .tsx, .php, .py, .ipynb, .json, .xml, .md, etc.
+# Also keep package-lock.json, yarn.lock, pnpm-lock.yaml,
+# composer.lock, gradle-wrapper.properties and Package.resolved.
