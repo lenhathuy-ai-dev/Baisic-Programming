@@ -167,3 +167,4 @@ logs/
 
 #13. ignore dự án todo-list
 todolist/
+*.docx
