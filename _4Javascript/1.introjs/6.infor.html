@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+<style>
+    html{
+        margin: 10px;
+}
+    .not-entered{
+        font-size: 11px;
+        font-style: italic;
+        color: gray;
+    }
+</style>
+</head>
+<body>
+    <div class="form-field">
+  <label for="exampleFormControlInput1" class="form-label">Họ tên</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Họ và tên">
+  <label for="exampleFormControlInput1" class="form-label">Nhập năm sinh</label>
+  <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="Nhập năm sinh">
+  <label for="exampleFormControlInput1" class="form-label">Nhập quên quán</label>
+  <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Quê quán">
+
+
+<h1>THÔNG TIN SINH VIÊN</h1>
+<div>
+    <p>Họ tên: <span id="hoten"></span></p>
+    <p>Tuổi: <span id="tuoi"></span></p>
+    <p>Quê quán: <span id="quequan"></span></p>
+
+</div>
+</body>
+
+<script>
+    const fullName = document.getElementById("exampleFormControlInput1");
+    const birthYear = document.getElementById("exampleFormControlInput2");
+    const homeTown = document.getElementById("exampleFormControlInput3");
+
+    const resultName = document.getElementById("hoten");
+    const resultAge = document.getElementById("tuoi");
+    const resultHomeTown = document.getElementById("quequan");
+
+
+    function updateInformation()
+    {
+        const name = fullName.value.trim();
+        const yearText = birthYear.value;
+        const origin = homeTown.value.trim();
+        
+        const currentYear = new Date().getFullYear();
+
+        resultName.textContent = name || "Người dùng chưa nhập thông tin";
+        resultName.classList.toggle("not-entered", name == "");
+        resultHomeTown.textContent = origin || "Người dùng chưa nhập thông tin";
+        resultHomeTown.classList.toggle("not-entered", name == "");
+
+        if (yearText === ""){
+            resultAge.textContent = "Người dùng chưa nhập thông tin";
+            resultAge.classList.add("not-entered");
+        }
+        else {
+            resultAge.classList.remove("not-entered");
+            const year = Number(yearText);
+            if (Number.isInteger(year)
+                && year >= 1800
+                && year <= currentYear
+            ){
+                resultAge.textContent =  `${currentYear - year} tuổi`;
+            }
+            else{
+                resultAge.textContent = "Bạn đã nhập năm sinh không hợp lệ";
+                resultAge.classList.add("not-entered");
+            }
+        }
+
+    }
+
+    // Hàm lắng nghe sự kiện
+    fullName.addEventListener("input", updateInformation);
+    birthYear.addEventListener("input", updateInformation);
+    homeTown.addEventListener("input", updateInformation);
+
+    /// Hàm hiện thị trạng thái ban đầu
+    updateInformation();
+
+
+</script>
+</html>

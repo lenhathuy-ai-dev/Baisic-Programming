@@ -163,3 +163,7 @@ logs/
 # .ts, .tsx, .php, .py, .ipynb, .json, .xml, .md, etc.
 # Also keep package-lock.json, yarn.lock, pnpm-lock.yaml,
 # composer.lock, gradle-wrapper.properties and Package.resolved.
+
+
+#13. ignore dự án todo-list
+todolist/
